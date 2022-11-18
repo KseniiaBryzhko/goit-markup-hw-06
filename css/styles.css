@@ -673,6 +673,8 @@ button {
   padding: 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -690,6 +692,8 @@ button {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -767,6 +771,12 @@ button {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   box-shadow: 0 0 0 0.1em var(--secondary-color);
+}
+
+.modal-link {
+  font-weight: 400;
+  color: var(--accent-color);
+  text-underline-position: under;
 }
 
 .check-input:checked + .custom-checkbox {
